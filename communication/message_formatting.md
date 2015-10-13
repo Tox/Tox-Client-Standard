@@ -12,10 +12,4 @@ Message Formatting
 - ![](/badge/req.png) A sending client must not insert or remove any bytes from
   the original input.
 
-- ![](/badge/req.png) For each line of a received message, if the line begins
-  with the `>` character, the client must render that line in a different
-  color.
-    -Green is the recommended colour, but a client may choose whichever colour
-    it wants
-
 - ![](/badge/req.png) Sent messages must be encoded in UTF-8.
