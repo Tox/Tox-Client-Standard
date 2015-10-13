@@ -18,4 +18,4 @@ Message Formatting
     -Green is the recommended colour, but a client may choose whichever colour
     it wants
 
-- ![](/badge/req.png) Sent messages must be encoded in either UTF-8 or ASCII.
+- ![](/badge/req.png) Sent messages must be encoded in UTF-8.
