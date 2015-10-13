@@ -5,6 +5,6 @@ Message Persistence
   history, and provide a persistent view of that history across client
   restarts.
 
-- ![](/badge/rec.png) Message persistence should be disabled by default.
+- ![](/badge/rec.png) Message persistence should be enabled by default.
 
 - ![](/badge/rec.png) Message history stored on disk should be encrypted.
