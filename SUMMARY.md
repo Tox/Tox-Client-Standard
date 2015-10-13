@@ -1,0 +1,17 @@
+# Summary
+
+* [Introduction](README.md)
+* [General Requirements](general_requirements/general_requirements.md)
+* [User Identification]()
+    * [Tox ID](user_identification/tox_id.md)
+    * [User Status](user_identification/user_status.md)
+    * [Avatar](user_identification/avatar.md)
+* [Communication]()
+    * [Friend Requests](communication/friend_requests.md)
+    * [Group Chats](communication/group_chats.md)
+    * [Calls](communication/calls.md)
+    * [File Transfers](communication/file_transfers.md)
+    * [Message Formatting](communication/message_formatting.md)
+* [Message Persistence](message_persistence/message_persistence.md)
+* [Data Storage](data_storage/data_storage.md)
+    * [Export Format](data_storage/export_format.md)
