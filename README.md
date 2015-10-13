@@ -5,7 +5,7 @@ Introduction
   toxcore, but are otherwise required/recommended to ensure proper client
   interoperability as well as best security practices.
 
-- For a Tox client to be endorsed/supported (?) by the Tox project, it must, at
+- For a Tox client to be endorsed/supported by the Tox Project, it must, at
   minimum, comply with every ![](badge/req.png) point in this document (except
   where otherwise stated).  For this reason, things that are ![](badge/req.png)
   should not be needlessly specific.
