@@ -40,7 +40,6 @@ Avatar support in Tox clients is not required. The points below are applicable o
     - If the transfer does not meet any of the conditions for cancellation, the
       avatar must be saved and displayed, and the hash of the file must be
       stored alongside the avatar itself.
-
-- ![](/badge/req.png) The client must keep at least one unmodified copy of the
-  avatar on disk. Any modificaion for display purposes must be done only in
-  memory, or in a temporary file.
+    - The client must keep at least one unmodified copy of the avatar on disk.
+      Any modificaion for display purposes must be done only in memory, or in a
+      temporary file.
