@@ -15,7 +15,13 @@ Message Formatting
 - ![](/badge/req.png) For each line of a received message, if the line begins
   with the `>` character, the client must render that line in a different
   color.
-    -Green is the recommended colour, but a client may choose whichever colour
+    - Green is the recommended colour, but a client may choose whichever colour
+    it wants
+
+- ![](/badge/rec.png) For each line of a received message, if the line ends
+  with the `<` character, the client must render that line in a different
+  color.
+    - Red is the recommended colour, but a client may choose whichever colour
     it wants
 
 - ![](/badge/req.png) Sent messages must be encoded in either UTF-8 or ASCII.
