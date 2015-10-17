@@ -11,3 +11,4 @@ Group Chats
 - **3.2.3** ![](/badge/rec.png) When a user attempts to leave a group, before proceeding,
   the client should warn the user that their group credentials will be
   permanently lost.
+    - This only applies to the new groupchat implementation and may otherwise be ignored.
