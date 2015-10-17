@@ -17,7 +17,7 @@ A client is allowed to store profile data internally in any format.
   format in the standard system location defined in the following table:
 
   | Platform                   | Path                                  |
-  |----------------------------|---------------------------------------|
+  |:--------------------------:|:-------------------------------------:|
   | GNU/Linux, other Unix-like | ``~/.config/tox/``                    |
   | Windows                    | ``%APPDATA%/tox/``                    |
   | Mac OS X                   | ``~/Library/Application Support/Tox`` |

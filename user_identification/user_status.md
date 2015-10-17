@@ -5,7 +5,7 @@ User Status
   to the table below:
 
   | Userstatus           | Colour |
-  |----------------------|--------|
+  |:--------------------:|:------:|
   | Online [none]        | Green  |
   | Away                 | Yellow |
   | Busy                 | Red    |
