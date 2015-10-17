@@ -1,13 +1,13 @@
 Export Format
 -------------
 
-- *5.1.1* ![](/badge/req.png) A Toxcore data file saved in the root of the client's
+- **5.1.1** ![](/badge/req.png) A Toxcore data file saved in the root of the client's
   working directory, with the file name `<profile_name>.tox`
 
-- *5.1.2* ![](/badge/req.png) If the client supports user avatars, they will be stored
+- **5.1.2** ![](/badge/req.png) If the client supports user avatars, they will be stored
   under the `avatars/` directory in the root of the client's working directory.
 
-- *5.1.3* ![](/badge/req.png) Avatars are named according to the following format:
+- **5.1.3** ![](/badge/req.png) Avatars are named according to the following format:
   `PK.png`, where PK is the 64-character hexadecimal public key of its owner.
 
 - An example file heirarchy:

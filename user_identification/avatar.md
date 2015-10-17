@@ -1,35 +1,35 @@
 Avatar
 ------
 
-- *2.3.1* ![](/badge/rec.png) A Tox client should allow the user to provide an image
+- **2.3.1** ![](/badge/rec.png) A Tox client should allow the user to provide an image
   representation of themselves to be sent to friends.
 
-- *2.3.2* ![](/badge/req.png) If a Tox client does not support avatars, all received
+- **2.3.2** ![](/badge/req.png) If a Tox client does not support avatars, all received
   file transfers of the type `TOX_FILE_KIND_AVATAR` must be cancelled
   immediately.
 
 Avatar support in Tox clients is not required. The points below are applicable only to clients that provide avatar support.
 
-- *2.3.3* ![](/badge/req.png) Avatars must be PNG images.
+- **2.3.3** ![](/badge/req.png) Avatars must be PNG images.
 
-- *2.3.4* ![](/badge/req.png) The maximum size of the encoded avatar data is 65536
+- **2.3.4** ![](/badge/req.png) The maximum size of the encoded avatar data is 65536
   bytes (64KiB).
 
-- *2.3.5* ![](/badge/req.png) The user must be allowed to unset the avatar.
+- **2.3.5** ![](/badge/req.png) The user must be allowed to unset the avatar.
 
-- *2.3.6* ![](/badge/req.png) When a friend comes online, and an avatar is set, the
+- **2.3.6** ![](/badge/req.png) When a friend comes online, and an avatar is set, the
   client will send a file transfer of type `TOX_FILE_KIND_AVATAR`, where the
   file ID is the hash of the avatar data that will be sent.
 
-- *2.3.7* ![](/badge/req.png) When a user sets a new avatar, the client will send a
+- **2.3.7** ![](/badge/req.png) When a user sets a new avatar, the client will send a
   file transfer of type `TOX_FILE_KIND_AVATAR` to all friends, where the file
   ID is the hash of the avatar data that will be sent.
 
-- *2.3.8* ![](/badge/req.png) When a user unsets an avatar, the client will send an
+- **2.3.8** ![](/badge/req.png) When a user unsets an avatar, the client will send an
   avatar file transfer of size 0 to all friends. In this case, the file ID is
   undefined.
 
-- *2.3.9* ![](/badge/req.png) When a file transfer of type `TOX_FILE_KIND_AVATAR` is received:
+- **2.3.9** ![](/badge/req.png) When a file transfer of type `TOX_FILE_KIND_AVATAR` is received:
     - The client must check the file ID against a previously-saved hash of the
       friend's avatar. If it is the same, the client must cancel the transfer,
       and use the previously-stored avatar.
