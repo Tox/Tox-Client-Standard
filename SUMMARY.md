@@ -15,3 +15,4 @@
 * [Message Persistence](message_persistence/message_persistence.md)
 * [Data Storage](data_storage/data_storage.md)
     * [Export Format](data_storage/export_format.md)
+* [Rationale](rationale/rationale.md)
