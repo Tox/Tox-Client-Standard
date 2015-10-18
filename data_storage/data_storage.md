@@ -14,11 +14,8 @@ A client is allowed to store profile data internally in any format.
   the ability to export its data into the Export format.
 
 - **5.0.4** ![](/badge/rec.png) A client should store its profile data in the Export
-  format in the standard system location defined in the following table:
-
-  | Platform                   | Path                                  |
-  |:--------------------------:|:-------------------------------------:|
-  | GNU/Linux, other Unix-like | ``~/.config/tox/``                    |
-  | Windows                    | ``%APPDATA%/tox/``                    |
-  | Mac OS X                   | ``~/Library/Application Support/Tox`` |
+  format in the standard system location defined as follows:
+  - Unix-like  : ~/.config/tox/
+  - Windows    : %APPDATA%/tox/
+  - Mac OS X   : ~/Library/Application Support/Tox
 
