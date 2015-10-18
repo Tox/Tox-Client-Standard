@@ -29,7 +29,8 @@ response to questions or confusion within the Tox development community.
   core library.
 
 - **2.3.8** This will ensure that the avatar is unset for all of the user's
-  friends (as long as their clients comply with clause 2.3.9).
+  friends (as long as their clients comply with the avatar protocol as
+  described in this document).
 
 - **3.1.1** When a friend request is accepted, certain identifying information
   may become available to initiator of the request. To protect user privacy,
@@ -40,7 +41,8 @@ response to questions or confusion within the Tox development community.
   request.
 
 - **3.2.2** When a user joins a group, certain identifying information may
-  become available to all peers in the group. See also: 3.1.2.
+  become available to all peers in the group. To protect user privacy,
+  this must not occur without the user's explicit consent.
 
 - **3.2.3** A peer's identity in a group, which includes their group public key
   and role/permissions, is persistent across client restarts. However, this
