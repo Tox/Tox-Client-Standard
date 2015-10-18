@@ -10,7 +10,7 @@ Export Format
 - **5.1.3** ![](/badge/req.png) Avatars are named according to the following format:
   `PK.png`, where PK is the 64-character hexadecimal public key of its owner.
 
-- An example file heirarchy:
+- An example file hierarchy:
 
   ```
   +-----------------------------------------------------------------------------------+
