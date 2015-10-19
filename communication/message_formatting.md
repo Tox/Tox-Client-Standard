@@ -12,4 +12,4 @@ Message Formatting
 - **3.5.3** ![](/badge/req.png) A sending client must not insert or remove any bytes from
   the original input.
 
-- **3.5.5** ![](/badge/req.png) Sent messages must be encoded in either UTF-8 or ASCII.
+- **3.5.4** ![](/badge/req.png) Sent messages must be encoded in UTF-8.
