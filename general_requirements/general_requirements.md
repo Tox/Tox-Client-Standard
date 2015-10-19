@@ -13,6 +13,6 @@ General Requirements
   must be blocked, including (but not limited to) DNS and HTTPS-based username
   lookups.
 
-- **1.0.4** ![](/badge/req.png) All features supported by the tox.h and toxav.h APIs that
-  are used by the client must be fully functional without the usage of
-  third-party services.
+- **1.0.4** ![](/badge/req.png) All features supported by the tox.h, toxav.h and
+  toxencryptsave.h APIs that are used by the client must be fully functional without
+  the usage of third-party services.
