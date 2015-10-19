@@ -5,6 +5,7 @@ A client is allowed to store profile data internally in any format.
 
 - **5.0.1** ![](/badge/req.png) A client must give the user the option to encrypt their
   profile data.
+  - This option must be presented on creation of a new profile.
 
 - **5.0.2** ![](/badge/rec.png) A client should give the user the option to decrypt
   encrypted profile data.
