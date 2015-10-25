@@ -14,5 +14,5 @@ Message Persistence
 
 - **4.0.3** ![](/badge/req.png) If message persistence is enabled by default,
   all message logs stored on the device must be encrypted using the cryptography
-  functions provided by the Tox API, or a comparibly reputable, free and open
+  functions provided by the Tox API, or a comparably reputable, free and open
   source cryptography library.
