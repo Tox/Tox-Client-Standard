@@ -51,3 +51,7 @@ response to questions or confusion within the Tox development community.
 - **4.0.2** As message history may be stored on a user's device in plaintext,
   it is a matter of security to ensure that this does not occur without the
   user's explicit consent.
+
+- **5.0.1** The .tox data file contains all of the information required to steal
+  a user's identity. Therefore users should always have and be aware of the
+  option to encrypt this file.
