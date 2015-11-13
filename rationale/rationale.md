@@ -28,7 +28,7 @@ response to questions or confusion within the Tox development community.
 - **2.3.3** PNG images are currently the only image type supported by the Tox
   core library.
 
-- **2.3.8** This will ensure that the avatar is unset for all of the user's
+- **2.3.10** This will ensure that the avatar is unset for all of the user's
   friends (as long as their clients comply with the avatar protocol as
   described in this document).
 
