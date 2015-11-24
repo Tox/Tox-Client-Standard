@@ -4,7 +4,6 @@
 * [General Requirements](general_requirements/general_requirements.md)
 * [User Identification]()
     * [Tox ID](user_identification/tox_id.md)
-    * [User Status](user_identification/user_status.md)
     * [Avatar](user_identification/avatar.md)
 * [Communication]()
     * [Friend Requests](communication/friend_requests.md)
