@@ -8,6 +8,8 @@ Message Formatting
     - The above rule does not apply if malformed UTF-8 text is received. In
       this case, a client may transform the text to any extent necessary to
       make it displayable.
+    - A material change is any change that likely will change the structure, layout,
+      content, meaning, text, or intent of the message.
 
 - **5.3.3** ![](/badge/rec.png) It's a strong suggestion that messaging clients support 
   at the very least a subset of the common markdown syntax. The markdown used in this 
