@@ -23,6 +23,6 @@ Message Formatting
 
 - **3.5.4** ![](/badge/req.png) A sending client must not insert or remove any content/data
   from any message, of any type. Clients may trim white space from a text messages with the
-  exception of newline and carrage returns, they must not be altered in anyway.
+  exception of newline and carriage returns, they must not be altered in any way.
 
-- **3.5.5** ![](/badge/req.png) Sent messages must be strictly compatable with UTF-8.
+- **3.5.5** ![](/badge/req.png) Sent messages must be strictly compatible with UTF-8.
