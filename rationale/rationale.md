@@ -22,9 +22,6 @@ response to questions or confusion within the Tox development community.
   functionality made available via the Tox API) without being forced to use
   third party services.
 
-- **2.2.2** This is to account for colour blindness; the recommended user
-  status colours are not colour-blind friendly.
-
 - **2.3.3** PNG images are currently the only image type supported by the Tox
   core library.
 
