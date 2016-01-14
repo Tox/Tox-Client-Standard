@@ -12,8 +12,8 @@ Avatar support in Tox clients is not required. The points below are applicable o
 
 - **2.2.3** ![](/badge/req.png) Avatars must be PNG images.
 
-- **2.2.4** ![](/badge/req.png) The maximum size of the encoded avatar data is 65536
-  bytes (64KiB).
+- **2.2.4** ![](/badge/req.png) The maximum size of the encoded avatar data is 5242880
+  bytes (5MiB.)
 
 - **2.2.5** ![](/badge/req.png) Clients must display avatars at a 1:1 aspect ratio.
 
