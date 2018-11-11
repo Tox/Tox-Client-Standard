@@ -8,7 +8,8 @@ Export Format
   under the `avatars/` directory in the root of the client's working directory.
 
 - **5.1.3** ![](/badge/req.png) Avatars are named according to the following format:
-  `PK.png`, where PK is the 64-character hexadecimal public key of its owner.
+  `SHA256(PK).png`, where PK is the public key of its owner. The output of the SHA256
+  function is converted to a 64-character hexadecimal string.
 
 - An example file hierarchy:
 
