@@ -17,7 +17,7 @@ A client is allowed to store profile data internally in any format.
 - **5.0.4** ![](/badge/rec.png) A client should store its profile data, in the
   Export format, in one of the standard platform-specific locations given
   below:
-  - Unix-like  : ~/.config/tox/
-  - Windows    : %APPDATA%/tox/
-  - Mac OS X   : ~/Library/Application Support/Tox
+  - Unix-like  : `$XDG_DATA_HOME/tox` and `$HOME/.local/share` if `$XDG_DATA_HOME` is not defined
+  - Windows    : `%APPDATA%/tox/`
+  - Mac OS X   : `~/Library/Application Support/Tox`
 
