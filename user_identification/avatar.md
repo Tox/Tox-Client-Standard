@@ -47,3 +47,6 @@ Avatar support in Tox clients is not required. The points below are applicable o
     - The client must keep at least one unmodified copy of the avatar on disk.
       Any modificaion for display purposes must be done only in memory, or in a
       temporary file.
+- **2.2.12** ![](/badge/req.png) If a client wants to display Identicons
+    (a graphical representation of the public key) instead of avatars, it must
+    do so using the algorithm specified in [/appendixToxIdenticons.md](/appendix/ToxIdenticons.md)
